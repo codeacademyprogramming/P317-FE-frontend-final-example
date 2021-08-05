@@ -24,7 +24,7 @@
           <nav class="header__navigation-list__wrapper">
             <ul class="header__navigation-list">
               <li class="header__navigation-list__item">
-                <a href="/index.html">Home</a>
+                <a href="/index.html" class="active">Home</a>
               </li>
               <li class="header__navigation-list__item">
                 <a href="/movies.html">Movies</a>
@@ -73,13 +73,63 @@
       </div>
     </header>
     <main>
-      <div class="movie-details">
-        <div class="movie-details__logo">
-          <img
-            src="https://templates.iqonic.design/streamit/frontend/html/images/logo.png"
-            class="c-logo"
-            alt="streamit"
-          />
+      <div class="custom-container">
+        <div class="movie-details">
+          <div class="movie-details__inner">
+            <div class="movie-details__logo">
+              <img
+                src="https://templates.iqonic.design/streamit/frontend/html/images/logo.png"
+                class="c-logo"
+                alt="streamit"
+              />
+            </div>
+            <h1 class="movie-details__heading">Bushland</h1>
+            <div class="movie-details__fan-rating">
+              <ul class="movie-details__stars">
+                <li>
+                  <i class="fa fa-star" style="color: #e50914"></i>
+                </li>
+                <li>
+                  <i class="fa fa-star" style="color: #e50914"></i>
+                </li>
+                <li>
+                  <i class="fa fa-star" style="color: #e50914"></i>
+                </li>
+                <li>
+                  <i class="fa fa-star" style="color: #e50914"></i>
+                </li>
+                <li>
+                  <i class="fa fa-star" style="color: #e50914"></i>
+                </li>
+              </ul>
+              <span class="movie-details__imdb-rating"> 4.7(lmdb) </span>
+              <span class="movie-details__pg">18+</span>
+              <span class="movie-details__season-count">2 seasons</span>
+            </div>
+            <p class="movie-details__description">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s.
+            </p>
+            <ul class="movie-details__general">
+              <li>
+                <span>Starring:</span>
+                Karen Gilchrist, James Earl Jones
+              </li>
+              <li>
+                <span>Genres:</span>
+                Action
+              </li>
+              <li>
+                <span>Tag:</span>
+                Fiction, Adventure, Action
+              </li>
+            </ul>
+            <div>
+                <button class="button is-primary is-medium">Play now</button>
+                <a href="" ></a>
+            </div>
+          </div>
         </div>
       </div>
     </main>
