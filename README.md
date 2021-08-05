@@ -2,3 +2,5 @@
 2. run npm install
 3. run npm start to start locally
 4. run npm run build to take the final css js and htmls
+
+Template we are creating: https://templates.iqonic.design/streamit/frontend/html/index.html
